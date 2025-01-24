@@ -6,7 +6,7 @@ async function fetchaqi() {
   const weatherDataSection = document.getElementById("AQI_data");
   weatherDataSection.style.display = "block";
 
-  const apiKey = "108c0474e6c91520be40842391d3afca"
+  const apiKey = ""
 
   if (searchInput == "") {
     weatherDataSection.innerHTML = `
